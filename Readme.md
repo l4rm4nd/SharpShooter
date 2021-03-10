@@ -22,7 +22,7 @@ OSEP Usage
 
 2. ``pipenv shell``
 
-3. ``python2.7 SharpShooter.py --payload js --dotnetver 4 --stageless --rawscfile /var/www/html/shell.txt --output test --template mcafee --smuggle``
+3. ``python2.7 SharpShooter.py --payload js --dotnetver 4 --stageless --rawscfile /var/www/html/shell.txt --output scan_results --template mcafee --smuggle``
 
 Description
 ===========
