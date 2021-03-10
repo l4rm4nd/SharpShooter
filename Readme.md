@@ -11,7 +11,7 @@ Installation
 ===========
 1. ``git clone https://github.com/l4rm4nd/SharpShooter``
 
-2. ``cd SharpShooter && pipenv --python 2.7 install jsmin)``
+2. ``cd SharpShooter && pipenv --python 2.7 install jsmin``
 
 3. ``pipenv shell``
 
